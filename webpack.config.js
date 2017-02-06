@@ -13,6 +13,6 @@ module.exports = function(webpackConfig, env) {
     propWhiteList: [],
   }));
 
-  console.log(webpackConfig.module);
+  // console.log(webpackConfig.module);
   return webpackConfig;
 };

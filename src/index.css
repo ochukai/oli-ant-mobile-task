@@ -1,5 +1,12 @@
+:global {
 
-html, body, :global(#root) {
-  height: 100%;
 }
 
+html {
+  font-family: Tahoma, Arial, Roboto, "Droid Sans", "Helvetica Neue", "Droid Sans Fallback", "Microsoft YaHei", "Heiti SC", "Hiragino Sans GB", Simsun;
+}
+
+html, body, :global(#root) {
+  /*font-family: Helvetica, "Microsoft YaHei", sans-serif;*/
+  height: 100%;
+}

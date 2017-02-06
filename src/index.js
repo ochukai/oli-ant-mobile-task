@@ -1,4 +1,6 @@
 import dva from 'dva';
+import createLogger from 'dva-logger';
+
 import './index.html';
 import './index.css';
 
@@ -6,11 +8,11 @@ import './index.css';
 const app = dva();
 
 // 2. Plugins
-// app.use({});
+// logger
+app.use(createLogger());
 
 // 3. Model
-app.model(require("./models/products"));
-app.model(require('./models/example'));
+app.model(require("./models/tasks"));
 
 // 4. Router
 app.router(require('./router'));

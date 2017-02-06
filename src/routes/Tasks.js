@@ -1,11 +1,11 @@
 import React from 'react';
 import { connect } from 'dva';
-import styles from './ProductList.css';
+import styles from './Tasks.css';
 
-function ProductList(props) {
+function Tasks(props) {
   return (
     <div className={styles.normal}>
-      Route Component: 'ProductList'
+      Route Component: 'Tasks'
     </div>
   );
 }
@@ -14,4 +14,4 @@ function mapStateToProps(state) {
   return {};
 }
 
-export default connect(mapStateToProps)(ProductList);
+export default connect(mapStateToProps)(Tasks);

@@ -1,6 +1,6 @@
 
 export default {
-  namespace: 'example',
+  namespace: 'tasks',
   state: {},
   reducers: {},
   effects: {},
